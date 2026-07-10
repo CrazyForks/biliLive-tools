@@ -54,7 +54,7 @@ biliLive-tools 提供三种录制器引擎：
 
 项目地址：https://github.com/renmu123/BililiveRecorder
 
-录播姬引擎是从录播姬项目中提取了FLV录制引擎，一些细节上并不与原项目相同
+录播姬引擎是从录播姬项目中提取了FLV录制引擎，一些细节上并不与原项目相同，内存占用会偏高
 
 ### 视频格式
 
