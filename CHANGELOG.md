@@ -11,6 +11,7 @@
 ## Bug修复
 
 - 录制：修复B站弹幕重试次数错误
+- 修复右键托盘“显示”时任务栏不会显示的bug [#502](https://github.com/renmu123/biliLive-tools/issues/502)
 
 # 3.17.0(2026.07.01)
 

@@ -365,6 +365,7 @@ function createWindow(): void {
     {
       label: "显示",
       click: () => {
+        mainWin.setSkipTaskbar(false);
         mainWin.show();
       },
     },
