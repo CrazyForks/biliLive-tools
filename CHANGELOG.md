@@ -14,6 +14,10 @@
 - 修复右键托盘“显示”时任务栏不会显示的bug [#502](https://github.com/renmu123/biliLive-tools/issues/502)
 - 切片：修复单个导出不存在上传预设仍提示登录的bug
 
+## 其他
+
+- 文档：增加 vitepress-plugin-llms 插件
+
 # 3.17.0(2026.07.01)
 
 ## 功能
