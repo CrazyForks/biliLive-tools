@@ -17,6 +17,7 @@
 ## 其他
 
 - 文档：增加 vitepress-plugin-llms 插件
+- 依赖升级 [#491](https://github.com/renmu123/biliLive-tools/pull/491)
 
 # 3.17.0(2026.07.01)
 
