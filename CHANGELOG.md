@@ -18,6 +18,7 @@
 
 - 文档：增加 vitepress-plugin-llms 插件
 - 依赖升级 [#491](https://github.com/renmu123/biliLive-tools/pull/491)
+- 录播姬引擎升级至[3.4.0](https://github.com/renmu123/BililiveRecorder/releases/tag/v3.4.0)，修复某些抖音录制失败的问题
 
 # 3.17.0(2026.07.01)
 
