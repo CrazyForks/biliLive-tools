@@ -48,15 +48,15 @@ See [the reference guide](https://docs.irenmu.com/api/recorder.md) for details.
 See [the reference guide](https://docs.irenmu.com/api/task.md) for details.
 
 - 查询任务列表(`/task/list`)，支持根据名称关键词、状态等条件筛选
-- 恢复(`/task/:id/resume`)、终止(`/task/:id/kill`)、中断(`/task/:id/interrupt`)、重启(`/task/:id/restart`)或启动(`/task/:id/start`)任务
+- 查询(`/task/:id`)、恢复(`/task/:id/resume`)、终止(`/task/:id/kill`)、中断(`/task/:id/interrupt`)、重启(`/task/:id/restart`)或启动(`/task/:id/start`)任务
 
 ### 预设相关
 
 See [the reference guide](https://docs.irenmu.com/api/preset.md) for details.
 
-一共存在三种预设，分别是ffmpeg预设、弹幕预设和视频发布预设，用户可以通过接口进行增删改查。
+一共存在三种预设，分别是ffmpeg预设、弹幕预设和视频预设，用户可以通过接口进行增删改查。
 
-如果涉及删除操作，必须用户额外确认
+如果涉及删除操作，必须用户额外确认。
 
 ### 视频相关
 
@@ -101,6 +101,12 @@ See [the reference guide](https://docs.irenmu.com/api/config.md) for details.
 ### 配置xxx的webhook
 
 ### 视频上传
+
+可以通过 `https://docs.irenmu.com/api/preset.md` 查询预设。
+
+上传前需要用户确认预设，标题，具体查询 `https://docs.irenmu.com/api/bili.md`
+
+最后上传调用 `/bili/upload`
 
 ### 字幕识别
 
